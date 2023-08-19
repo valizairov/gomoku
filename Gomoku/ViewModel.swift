@@ -13,8 +13,8 @@ class ViewModel {
         
     }
     
-    func checkWinner() {
-        
+    func checkWinner() -> Player? {
+        return .white
     }
 
     init() {
